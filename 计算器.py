@@ -3,9 +3,9 @@ bilibili:1317826718
 mail:unsnad1107@gamil.com
 2923865644@qq.com
 '''
-a=eval(input('请输入第一个数字'))
+a=eval(input('Please enter the first number（请输入第一个数字）:'))
 op=input('请输入运算符')
-b=eval(input('请输入第一个数字'))
+b=eval(input('Please enter the second number（请输入第二个数字）:'))
 if op=='+': # 检测运算符
     print(a+b)
 elif op=='-':
